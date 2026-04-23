@@ -50,3 +50,7 @@ npm run preview    # preview the production build
   project root for the in-preview pane. The Vite app uses `index.html`.
 - Keyboard: `⌘K` / `Ctrl+K` focuses the command palette. `⌘J` / `Ctrl+J`
   toggles theme.
+
+## Resume
+
+/public/Rafsun_Jani_resume.pdf

@@ -13,7 +13,13 @@ export function Experience({ items }) {
               <div className="when">{e.when}</div>
               <div>
                 <div className="role">{e.role}</div>
-                <div className="co">{e.co}</div>
+                <div className="co">
+                  {e.coLink ? (
+                    <a href={e.coLink} target="_blank" rel="noopener noreferrer">{e.co}</a>
+                  ) : (
+                    e.co
+                  )}
+                </div>
                 <div className="where">{e.where}</div>
                 <div className="note">{e.note}</div>
               </div>
