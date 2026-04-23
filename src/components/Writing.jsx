@@ -7,7 +7,12 @@ export function Writing({ posts, mediumUrl }) {
       <SectionHead num="04 / WRITING" title="cat ./notes/*.md" meta="occasional · longer-form on Medium" />
       <Reveal className="writing">
         {posts.map(p => (
-          <a className="post" key={p.title} href={mediumUrl} target="_blank" rel="noreferrer">
+          <a className="post" key={p.title} href={p.link || mediumUrl} target="_blank" rel="noreferrer">
+            {p.thumb && (
+              <div className="post-thumb">
+                <img src={p.thumb} alt={p.title} loading="lazy" />
+              </div>
+            )}
             <div className="meta">
               <span>{p.date}</span>
               <span><span className="tag">{p.tag}</span> · {p.read}</span>
