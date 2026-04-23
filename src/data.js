@@ -117,14 +117,14 @@ export const PORTFOLIO_DATA = {
       where: "Dhaka, Bangladesh",
       note: "Shipped ReviewXpo (Shopify review collection), DeedSign (digital signing), Syncora (Shopify admin backup) and Flowfy (Shopify integrations). Built responsive Polaris/Tailwind UIs on Next.js + TypeScript with an emphasis on consistent cross-device experience.",
     },
-    // {
-    //   when: "02/2018 — 04/2022",
-    //   role: "B.Sc, Computer Science & Engineering",
-    //   co: "Bangladesh University of Business and Technology (BUBT)",
-    //   coLink: "https://bubt.edu.bd/",
-    //   where: "CGPA 3.34 / 4.00",
-    //   note: "Completed Bachelor of Science in Computer Science and Engineering. Competed three times in the Intra University Programming Contest, placing 7th of 22 teams in the junior division. Active on Codeforces and LeetCode.",
-    // },
+    {
+      when: "02/2018 — 04/2022",
+      role: "B.Sc, Computer Science & Engineering",
+      co: "Bangladesh University of Business and Technology (BUBT)",
+      coLink: "https://bubt.edu.bd/",
+      where: "CGPA 3.34 / 4.00",
+      note: "Completed Bachelor of Science in Computer Science and Engineering. Competed three times in the Intra University Programming Contest, placing 7th of 22 teams in the junior division. Active on Codeforces and LeetCode.",
+    },
   ],
 
   posts: [
