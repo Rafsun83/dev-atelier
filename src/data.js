@@ -33,6 +33,14 @@ export const PORTFOLIO_DATA = {
       { k: "MongoDB / MySQL", v: 70 },
       { k: "Docker (basic)", v: 45 },
     ],
+    categories: [
+      { label: "Frontend",      items: ["JavaScript", "TypeScript", "React", "Next.js", "Tailwind", "Shopify Polaris"] },
+      { label: "State & Data",  items: ["Redux Toolkit", "React Query", "React Hook Form"] },
+      { label: "Testing",       items: ["Vitest", "Playwright", "React Testing Library", "MSW"] },
+      { label: "Backend",       items: ["Node.js", "Express", "Java", "Spring Boot"] },
+      { label: "Database",      items: ["MongoDB", "MySQL"] },
+      { label: "Tooling",       items: ["Turborepo", "Docker", "Git", "VS Code"] },
+    ],
     env: [
       { k: "editor", v: "VS Code" },
       { k: "runtime", v: "Node.js · Next.js" },
